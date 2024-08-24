@@ -1,0 +1,142 @@
+.nav {
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding-top: 10rem;
+    padding-left: 1rem;
+}
+.bar {
+    color: gray;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    padding-top: 3rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
+#boxe{
+    border: 1px solid rgb(199, 197, 197);
+    width: 60%;
+    position: relative;
+    left: 11rem;
+    padding: 12px;
+    border-radius: 15px;
+    background-color:rgb(255, 255, 255)
+}
+#name{
+    position: relative;
+    left: 4rem;
+    bottom: 3.5rem;
+    font-weight: bold;
+}
+#star{
+    position: relative;
+    left: 4rem;
+    bottom: 3.2rem;
+}
+#like{
+    position: relative;
+    bottom: 1rem;
+    font-weight: bold;
+    font-size: large;
+}
+#parag{
+      color: gray;
+}
+#Load{
+    position: relative;
+    left: 25rem;
+    font-size: large;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 10px;
+    width: 20rem;
+    color: blue;
+    background-color: white;
+    font-weight: 700;
+}
+#hed{
+    position: relative;
+    left: 6rem;
+}
+#p{
+    position: relative;
+    left: 13rem;
+    font-size: large;
+    color: gray;
+}
+#tic{
+    position: relative;
+    left: 10rem;
+    top: 2.5rem;
+}
+#tr{
+    position: relative;
+    left: 10rem;
+    font-size: large;
+    padding: 8px;
+    width: 15rem;
+    border-radius: 13px;
+    background-color: rgba(50, 50, 203, 0.995);
+    color: white;
+    border: 1px solid white;
+    top: 1rem;
+}
+#fr {
+    position: relative;
+    left: 50%;
+    padding-left: 50rem;
+    transform: translateX(-50%);
+    bottom: 25%; /* Adjust this percentage based on your design */
+    max-width: 100%;
+    height: auto; /* Ensures the image scales with the container */
+    
+} 
+.footer1{
+    position: relative;
+    bottom: 400rem;
+}
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .nav, .bar {
+        padding-left: 2rem;
+    }
+    .bar {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    #fr {
+        left: 43%; /* Adjust as needed for larger screens */
+        bottom: 65%; /* Adjust as needed for larger screens */
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #fr {
+        left: 50%;
+        bottom: 15%; /* Adjust as needed for smaller screens */
+    }
+}
+
+
+@media (max-width: 576px) {
+    img {
+        max-width: 100%; /* Adjusts max-width for smaller screens */
+        bottom: 0; /* Removes any bottom offset on small screens */
+        left: 0; /* Removes any left offset on small screens */
+    }
+}
